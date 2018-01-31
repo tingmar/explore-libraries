@@ -3,6 +3,11 @@
 #' ---
 
 ## First attempt: Just get it to work ----
+#move library
+library(fs)
+library(tidyverse)
+
+
 normalizePath("~")
 
 list.files("~/Desktop/day1_s1_explore-libraries")
