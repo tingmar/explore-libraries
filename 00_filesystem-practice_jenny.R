@@ -7,7 +7,6 @@
 library(fs)
 library(tidyverse)
 
-
 normalizePath("~")
 
 list.files("~/Desktop/day1_s1_explore-libraries")
@@ -81,3 +80,5 @@ dt %>%
 ## Clean it out, so we reset for workshop ----
 file_delete(to_files)
 dir_ls()
+
+sessionInfo()
